@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages/app');
+    return view('data-aplikasi');
+});
+
+Route::get('/form-pengecekan', function () {
+    return view('form-pengecekan');
+});
+
+Route::get('/rekap-bulanan', function () {
+    return view('rekap-bulanan');
 });
